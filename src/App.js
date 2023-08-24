@@ -50,7 +50,6 @@ function App() {
   const [colaboradores, setColaboradores] = useState([]) // Aqui o <useState> é uma lista porque vai receber uma lista de colaboradores e não apenas um
 
   const aoNovoColaboradorAdicionado = (colaborador) => {
-    debugger
     setColaboradores([...colaboradores, colaborador])
     //Aqui o setColabs. está pegando todos os colaboradores
     // que já existem e, no final, da array deles, ADICIONANDO o novo

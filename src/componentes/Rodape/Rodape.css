@@ -1,0 +1,30 @@
+.Rodape {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 10rem;
+}
+
+.Rodape__logo{
+    max-width: 150px;
+} 
+
+.Rodape p {
+    color: #FFF;
+}  
+
+.Rodape__link{
+    text-decoration: none;
+    color: yellow;
+}
+
+.Rodape__link:hover{
+    color: #EC268F;
+}
+
+@media screen and (min-width: 768px){
+    .Rodape{
+        flex-direction: row;
+    }
+}
